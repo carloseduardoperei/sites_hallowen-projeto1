@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Hallowen</title>
+</head>
+<body>
+  <header class="container">
+    <div class="header--logo">
+        <img src="images/hallowen.jpg" alt="logo" />
+    </div>
+    <div class="header--tema">
+        <img src="images/tema.jpg" alt="tema-logo" />
+    </div>
+    <div class="header--menu">
+        <nav>
+            <ul>
+                <a href="#banner"><li>evento</li></a>
+                <a href="#reservas"><li>reservas</li></a>
+            </ul>
+        </nav>
+    </div>
+  </header>
+  <section id="banner" class="container">
+    <section class="banner" style="background-color:#000;">
+        <div class="banner--left">
+            <h1>EVENTO</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora repellendus delectus quam, vitae aliquam architecto veritatis odit magnam laudantium nulla eaque ut rem? Ad laudantium odit possimus iste itaque.</P>
+            <div class="social--media">
+                <a href="#" title="siga-nos no twiter">
+                    <img src="images/twiter.png" alt="twiter" />
+                </a>
+                <a href="#" title="siga-nos no facebook">
+                    <img src="images/face.png" alt="facebook" />
+                </a>
+                <a href="#" title="siga-nos no instagram">
+                    <img src="images/insta.png" alt="instagram" />
+                </a>    <a href="#" title="contate-nos wattsapp">
+                    <img src="images/watts.png" alt="wattsapp" />
+                </a>
+            </div>
+        </div>
+        <div class="banner--right">
+            <img src="images/folder.jpg" alt="folder--hallowen" />
+        </div>
+    </section>
+  </section> 
+  <section id="reservas" class="container section--form">
+    <h2>FAÇA SUA RESERVA</h2>
+    <form method="get">
+       <label for="nome">Nome Completo*</label><br/>
+       <input type="text" id="nome" name="nome" placeholder="Nome" required/><br/>
+       <label for="email">Digite seu E-MAIL</label><br/>
+       <input type="email" id="email" name="email" placeholder="email" required /><br/>
+       <div class="contatos">
+            <div class="cpf">
+                <label for="cpf">Digite seu CPF</label><br/>
+                <input type="number" id="cpf" name="cpf" maxlength="11" required />
+            </div>
+            <div class="telefone">
+                <label for="tel">Digite seu Telefone</label><br/>
+                <input type="tel" id="tel" name="tel" required/>
+            </div>
+       </div>
+       <div class="convidados">
+            <div class="adultos">
+                <label for="adultos">Adultos</label><br/>
+                <input type="number" id="adultos" name="adultos" required/>
+            </div>
+            <div class="menores">
+                <label for="number">Crianças</label><br/>
+                <input type="number" id="numero" name="numero"/>
+            </div>
+        </div>
+        <label for="comments">Comentários</label><br/>
+        <textarea id="comments"></textarea><br/>
+        <button type="submit" id="button" name="button">Send</button>
+
+    </form>
+  </section>
+  <footer class="container classe--footer">
+    &copy; Todos Direitos Reservados - Fale conoco tel: 1000 - 00 - 00 -- Teatro HTML5 - Avenida CSS,000 -JavaScript - SP
+  </footer>
+</body>
+</html>

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+.header--logo {
+    flex: 1;
+}
+.header--tema {
+    flex: 1;
+}
+.header--menu {
+    flex: 1;
+    text-align: end;
+    margin-right: 20px;
+}
+.header--menu li {
+    display: inline;
+    cursor: pointer;
+}
+.header--menu a {
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.header--menu a:hover {
+    background-color: #8f8f31;
+}
+.header--logo img {
+    text-align: center;
+    border-radius: 35px;
+    width: 70px;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.social--media {
+    margin-top: 220px;
+}
+.social--media img {
+    width: 24px;
+    height: 24px;
+}
+.banner--left {
+    flex: 1;
+    text-align: center;
+}
+.banner--left h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Bungee', cursive;
+
+}
+.banner--left p {
+    font-size: 16px;
+    color: #fff;
+}
+.banner--left img {
+    width: 24px;
+}
+.banner--right {
+    flex: 1;
+    color: #fff;
+}
+.banner--right img {
+    width: 600px;
+    height: 400px;
+}
+.section--form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+}
+form {
+    margin-top: 20px;
+    line-height: 20px;
+}
+.contatos,
+.convidados {
+    display: flex;
+}
+.section--form h2 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+form #nome,
+form #email {
+    width: 356px;
+}
+.adultos, .cpf,
+.telefone {
+    margin-right: 10px;
+}
+#comments {
+    width: 356px;
+    height: 300px;
+    resize: none;
+}
+#button {
+    width: 150px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #999;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#button:hover {
+   background-color:  #8f8f31; 
+}
+.classe--footer {
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    padding-left: 30px;
+}
